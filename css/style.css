@@ -1,0 +1,224 @@
+body, html {
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 auto;
+    color: #fff;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, .6);
+}
+
+
+h1, h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+/*Parallax Part*/
+.parallax [class*="bg-"] {
+  position: relative;
+  height: 80vh;
+  text-indent: -9999px;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+.parallax [class*="bg-"]:nth-child(2n) {
+  box-shadow: inset 0 0 1em #c4c1c1;
+}
+.parallax .bg-1, .parallax .bg-4 {
+  height: 100vh;
+}
+.parallax .bg-1 {
+  background-image: url(../img/bcg_slide-1.jpg);
+}
+.parallax .bg-2 {
+  background-image: url(../img/bcg_slide-2.jpg);
+}
+.parallax .bg-3 {
+  background-image: url(../img/bcg_slide-3.jpg);
+}
+.parallax .bg-4 {
+  background-image: url(../img/bcg_slide-4.jpg);
+}
+.parallax .bg-break {
+  box-shadow: inset 0 0 1em #c4c1c1;
+  background-image: url(../img/bcg_slide-5.jpg);
+}
+.parallax .capture {
+  float: right;
+  width: 200px;
+  padding: 1em;
+  margin: -1.5em 1em 0 0;
+  text-indent: 0;
+  background: rgba(243, 243, 243, 0.75);
+  box-shadow: 0 1px 0.125em #333;
+}
+
+article .container {
+  width: 600px;
+  margin: 0 auto;
+}
+article header {
+  position: relative;
+  margin: -4.5em 0 0 0;
+  padding: 1em;
+  text-align: left;
+  font-size: 2em;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+article h1, article h2 {
+  margin: 0 0 0.333em;
+}
+article section {
+  padding: 3em;
+}
+article section.parallax {
+  margin: 0;
+  padding: 0;
+}
+
+h1 a
+a, a:visited, a:active {
+  color: #f5a09b;
+}
+
+/*Bottom Part*/
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.bottom {
+    background: #f5a09b;
+    position: relative;
+    height: 600px;
+}
+
+.intro-bg {
+    width: 100%;
+    height: 360px;
+    background: #000 url(../img/bg-01.png) no-repeat center center;
+    background-size: cover;
+}
+
+.container_2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    min-height: 500px;
+    border: 2px solid rgba(255, 255, 255, .5);
+}
+
+.intro {
+    box-sizing: border-box;
+    height: 340px;
+    padding-top: 5.3em;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #fff;
+}
+
+.social-network h3 {
+    margin: 30px auto 20px;
+    text-align: center;
+    font-weight: normal;
+    color: rgba(255, 255, 255, .6);
+}
+
+.social-network i.wrap {
+    position: relative;
+    top: -0.325em;
+    display: inline-block;
+    width: 46px;
+    height: 2px;
+    background: rgba(255, 255, 255, .6);
+}
+
+.social ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 220px;
+    list-style: none;
+}
+
+.social ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.social ul li:last-child {
+    margin-right: 0;
+}
+
+.copy {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 2em;
+    width: 100px;
+}
+
+.copy, .copy a {
+    font-size: 12px;
+    color: rgba(230, 230, 230, .5);
+    text-align: center;
+}
+
+
+/* Icons
+ ---------- */
+.lisicon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(../img/icons.svg);
+}
+.no-svg .lisicon {
+    background: url(../img/icons.png) no-repeat;
+}
+
+.lisicon-github {
+    background-position: 0 0;
+}
+
+.lisicon-github:hover {
+    background-position: -80px 0;
+}
+
+.lisicon-linkedin {
+    background-position: 0 -320px;
+}
+
+.lisicon-linkedin:hover {
+    background-position: -80px -320px;
+}
+
+.lisicon-email {
+    background-position: 0 -400px;
+}
+
+.lisicon-email:hover {
+    background-position: -80px -400px;
+}
+
