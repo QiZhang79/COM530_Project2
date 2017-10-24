@@ -20,26 +20,22 @@ h1, h2 {
 }
 
 
-/*--------------*/
-/*Parallax Part*/
-/*-------------*/
 
+/*-----------------------*/
+/*Article \ Parallax Part*/
+/*-----------------------*/
 .parallax [class*="bg-"] {
   position: relative;
   height: 80vh;
-  text-indent: -9999px;
   background-attachment: fixed;
   background-position: top center;
   background-size: cover;
-}
-.parallax [class*="bg-"]:nth-child(2n) {
   box-shadow: inset 0 0 1em #c4c1c1;
 }
-.parallax .bg-1, .parallax .bg-4 {
-  height: 90vh;
-}
+
 .parallax .bg-1 {
   background-image: url(../img/bcg_slide-1.jpg);
+  height: 90vh;
 }
 
 .parallax .bg-2 {
@@ -89,19 +85,22 @@ h1, h2 {
   font-size: 20px;
 }
 
-h1 a
-a, a:visited, a:active {
+h1 a {
   color: #f5a09b;
+}
+
+h1 a:hover {
+  color: white;
 }
 
 article .container {
   margin: 0 auto;
+  text-align: justify;
 }
 article header {
   position: relative;
   margin: -4.5em 0 0 0;
   padding: 1em;
-  text-align: left;
   font-size: 2em;
   color: #333;
   background-color: rgba(255, 255, 255, 0.75);
@@ -122,16 +121,6 @@ article section.parallax {
 /*------------*/
 /*Bottom Part*/
 /*-----------*/
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
 .bottom {
     background: #f5a09b;
     position: relative;
@@ -171,6 +160,16 @@ article section.parallax {
     height: 120px;
     border-radius: 60px;
     border: 2px solid #fff;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
 }
 
 .social-network h3 {
