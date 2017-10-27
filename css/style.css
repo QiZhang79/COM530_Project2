@@ -26,7 +26,7 @@ h1, h2 {
 .top {
     background: #f5a09b;
     position: relative;
-    height: 80vh;
+    height: 50em;
 }
 
 .intro-bg {
@@ -112,7 +112,7 @@ h1, h2 {
 /*-----------------------*/
 .parallax [class*="bg-"] {
   position: relative;
-  height: 80vh;
+  height: 50em;
 }
 
 .parallax .bg-1 {
@@ -242,7 +242,7 @@ article section.parallax {
 /*-----------*/
 @media screen and (max-width: 370px) {
   .parallax [class*="bg-"] {
-    height: 40vh;
+    height: 35em;
   }
 
   article .container {
@@ -263,23 +263,14 @@ article section.parallax {
   }
 
   .parallax [class*="bg-"] {
-    height: 50vh;
+    height: 38em;
   }
 
-  .parallax .bg-1 {
-    background: #000 url(../img/bcg_slide-3-2.jpg) no-repeat center center;
-  }
-  .parallax .bg-2 {
-    background: #000 url(../img/bcg_slide-4-2.jpg) no-repeat center center;
-  }
-  .parallax .bg-break {
-    background: #000 url(../img/bcg_slide-5-2.jpg) no-repeat center center;
-  }
 }
 
 @media screen and (max-width: 720px) {
    .parallax [class*="bg-"] {
-    height: 60vh;
+    height: 45em;
   }
 }
 @media screen and (max-width: 920px) {
