@@ -25,29 +25,29 @@ h1, h2 {
 .top {
     background: #f5a09b;
     position: relative;
-    height: 650px;
+    height: 80vh;
 }
 
 .intro-bg {
     width: 100%;
-    height: 400px;
+    height: 28em;
     background: #000 url(../img/bg-01.png) no-repeat center center;
     background-size: cover;
 }
 
 .container_2 {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    bottom: 20px;
-    left: 20px;
-    min-height: 500px;
-    border: 2px solid rgba(255, 255, 255, .5);
+    top: 1.250em;
+    right: 1.250em;
+    bottom: 1.250em;
+    left: 1.250em;
+    min-height: 31.250em;
+    border: 0.125em solid rgba(255, 255, 255, .5);
 }
 
 .intro {
     box-sizing: border-box;
-    height: 340px;
+    height: 21.250em;
     padding-top: 5.3em;
 }
 
@@ -56,11 +56,11 @@ h1, h2 {
 }
 .avatar {
     display: block;
-    margin: 0 auto 20px;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    border: 2px solid #fff;
+    margin: 0 auto 1.250em;
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 3.750em;
+    border: 0.125em solid #fff;
 }
 
 .clearfix:before,
@@ -74,7 +74,7 @@ h1, h2 {
 }
 
 .social-network h3 {
-    margin: 100px auto 20px;
+    margin: 9.375em auto 1.250em;
     text-align: center;
     font-weight: normal;
     color: rgba(255, 255, 255, .6);
@@ -84,21 +84,21 @@ h1, h2 {
     position: relative;
     top: -0.325em;
     display: inline-block;
-    width: 46px;
-    height: 2px;
-    background: rgba(255, 255, 255, .6);
+    width: 2.875em;
+    height: 0.125em;
+    background: rgba(255, 255, 255, 0.6);
 }
 
 .social ul {
     margin: 0 auto;
     padding: 0;
-    width: 220px;
+    width: 13.750em;
     list-style: none;
 }
 
 .social ul li {
     float: left;
-    margin-right: 20px;
+    margin-right: 1.250em;
 }
 
 .social ul li:last-child {
@@ -112,28 +112,29 @@ h1, h2 {
 .parallax [class*="bg-"] {
   position: relative;
   height: 80vh;
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 1em #c4c1c1;
 }
 
-.parallax .bg-3 {
+.parallax .bg-1 {
   background: #000 url(../img/bcg_slide-3.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
-.parallax .bg-4 {
+.parallax .bg-2 {
   background: #000 url(../img/bcg_slide-4.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .parallax .bg-break {
   box-shadow: inset 0 0 1em #c4c1c1;
   background: #000 url(../img/bcg_slide-5.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .parallax-content {
-  width: 200px;
-  font-size: 28px;
+  width: 12.5em;
+  font-size: 1.750em;
   text-indent: 0;
   color: #fff8de;
   padding: 1em;
@@ -142,26 +143,13 @@ h1, h2 {
 
 .parallax-content1 {
   float: right;
-  margin: 9.5em 1em 0 0;
-}
-
-.parallax-content2 {
-  float: left;
-  margin: 4.5em 1em 0 1em;
-}
-
-.parallax-content3 {
-  float: right;
   margin: 12.5em 1em 0 0;
 }
-.parallax-content4 {
-  float: left;
-  margin: 5.5em 1em 0 2em;
-}
-.parallax-content5 {
+
+.parallax-content-break {
   float: right;
   margin: 5.5em 1em 0 2em;
-  font-size: 20px;
+  font-size: 1.250em;
 }
 
 h1 a {
@@ -201,13 +189,13 @@ article section.parallax {
 .copy {
     position: relative;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -3.125em;
     bottom: 2em;
-    width: 100px;
+    width: 8em;
 }
 
 .copy, .copy a {
-    font-size: 12px;
+    font-size: 0.750em;
     color: rgba(245, 160, 154, 1);
     text-align: center;
 }
@@ -217,8 +205,8 @@ article section.parallax {
  ---------- */
 .lisicon {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 3.750em;
+    height: 3.750em;
     background: url(../img/icons.svg);
 }
 .no-svg .lisicon {
@@ -230,23 +218,23 @@ article section.parallax {
 }
 
 .lisicon-github:hover {
-    background-position: -80px 0;
+    background-position: -5em 0;
 }
 
 .lisicon-linkedin {
-    background-position: 0 -320px;
+    background-position: 0 -20em;
 }
 
 .lisicon-linkedin:hover {
-    background-position: -80px -320px;
+    background-position: -5em -20em;
 }
 
 .lisicon-email {
-    background-position: 0 -400px;
+    background-position: 0 -25em;
 }
 
 .lisicon-email:hover {
-    background-position: -80px -400px;
+    background-position: -5em -25em;
 }
 
 /*-----------*/
@@ -258,20 +246,20 @@ article section.parallax {
   }
 
   article .container {
-    width: 250px;
+    width: 15.625em;
   }
 }
 @media screen and (max-width: 625px) {
   .top {
-    height: 600px;
+    height: 37.5em;
   }
 
   .intro-bg {
-    height: 380px;
+    height: 23.750em;
   }
 
   .social-network h3 {
-    margin-top: 70px;
+    margin-top: 4.375em;
   }
 
   .parallax [class*="bg-"] {
@@ -308,14 +296,14 @@ article section.parallax {
    .parallax [class*="bg-"] {
     height: 80vh;
   }
-  .parallax .bg-1, .parallax .bg-4 {
+  .parallax .bg-1, .parallax .bg-2 {
     height: 90vh;
   }
 
 }
 @media screen and (min-width: 1186px){
   article .container {
-    width: 600px;
+    width: 37.5em;
     margin: 0 auto;
   }
 }
