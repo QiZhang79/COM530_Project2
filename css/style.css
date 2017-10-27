@@ -112,9 +112,8 @@ h1, h2 {
 .parallax [class*="bg-"] {
   position: relative;
   height: 80vh;
-  background-repeat: no-repeat;
   background-attachment: fixed;
-  
+
 }
 
 .parallax .bg-1 {
